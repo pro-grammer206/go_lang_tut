@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>Welcome to the world of Go</title>
+  </head>
+  <body>
+
+    <h1>The lessons of life</h1>
+    <ul>
+      {{range .Wisdom}}
+      <li>{{.Name}}-{{.Motto}}</li>
+      {{end}}
+    </ul>
+
+
+      <ul>
+        {{range .Transport}}
+        <li>{{.Manufacturer}}-{{.Model}}</li>
+        {{end}}
+
+        </ul>
+  </body>
+</html>

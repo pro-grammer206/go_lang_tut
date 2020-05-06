@@ -4,7 +4,7 @@ import(
   "fmt"
   "reflect"
 )
-
+type IPAddr []byte
 func main(){
   a:="this is a string text"
   b:=a+"lalaalal"
